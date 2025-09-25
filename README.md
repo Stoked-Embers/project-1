@@ -30,3 +30,6 @@ instance.
  - curl http://18.218.143.185:8080/convert?lbs=abc
       expected ouput - {"error":"Query param lbs is required and must be a number"}
 
+###### Cleanup & Cost
+ - Stop/terminate the EC2 instance from AWS console
+ - Delete associated Security Group and Key Pair to avoid leftover charges
