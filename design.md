@@ -25,4 +25,11 @@ Design prioritizes:
  - Missing lbs: return {"error":"Query param lbs is required and must be a number"}
  - Non-numeric lbs: same error.
 
+<img width="1101" height="303" alt="image" src="https://github.com/user-attachments/assets/c56f64cf-e9be-4910-8954-687549f4db7e" />
 
+## Service reliability
+ - starts on boot
+ - logs accessable with journalctl -u nodeapp
+ - verified by rebooting
+
+<img width="1256" height="342" alt="image" src="https://github.com/user-attachments/assets/f6f0181b-ca24-41db-b63d-1d44b1497f31" />
