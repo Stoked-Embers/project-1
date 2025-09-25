@@ -1,7 +1,7 @@
 # CS 454 Project 1
 
 
-This repo contains files for project 1. The project demonstrates deplying a simple Node.js app on an AWS 
+This repo contains files for project 1 screenshots are in the design.md. The project demonstrates deplying a simple Node.js app on an AWS 
 instance.
 
 ###### Contents
