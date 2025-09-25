@@ -21,7 +21,7 @@ instance.
 ###### How to run
  current public ip - 18.218.143.185
  visit the app - http://18.218.143.185:8080
- run conversions - curl http://18.218.143.185:8080/convert?lbs=150
+ - curl http://18.218.143.185:8080/convert?lbs=150
       expected ouput - {"lbs":150,"kg":68.18,"formula":"kg = lbs * 0.45359237"}
  - curl http://18.218.143.185:8080/convert?lbs=1000
       expected ouput - {"lbs":1000,"kg":453.59,"formula":"kg = lbs * 0.45359237"}
