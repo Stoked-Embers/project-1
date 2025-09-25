@@ -19,6 +19,14 @@ instance.
 6. Wrote documentation
 
 ###### How to run
-1. SSH into EC2 instance  - ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
-2. start the service - sudo systemctl start p1
-3. visit the app - http://<EC2_PUBLIC_IP>:8080
+ current public ip - 18.218.143.185
+ visit the app - http://18.218.143.185:8080
+ run conversions - curl http://18.218.143.185:8080/convert?lbs=150
+      expected ouput - {"lbs":150,"kg":68.18,"formula":"kg = lbs * 0.45359237"}
+ - curl http://18.218.143.185:8080/convert?lbs=1000
+      expected ouput - {"lbs":1000,"kg":453.59,"formula":"kg = lbs * 0.45359237"}
+ - curl http://18.218.143.185:8080/convert
+      expected ouput - {"error":"Query param lbs is required and must be a number"}
+ - curl http://18.218.143.185:8080/convert?lbs=abc
+      expected ouput - {"error":"Query param lbs is required and must be a number"}
+
